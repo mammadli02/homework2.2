@@ -3,31 +3,37 @@
 }
 
 body {
-    background-color: rgb(152, 228, 206);
+    background-image: url(https://cdn02.plentymarkets.com/epz0zx1qug71/item/images/199320/full/Vliestapete-Aquarell-Putz-cremebeige-Blush-048732-199320.jpg);
     height: 100vh;
+
 }
 
 
 header {
     position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     background-color: white;
+    flex: 100%;
     height: 80px;
-    width: 100%;
+
+
+
 
 
 }
 
 .heading {
-    width: 250px;
     display: flex;
+
     align-items: center;
     justify-content: center;
     background-color: lightseagreen;
     color: white;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
+    height: 80px;
 }
 
 
@@ -44,7 +50,9 @@ li {
     list-style: none;
 }
 
-
+li:first-child{
+    border-left: none;
+}
 li a {
     text-decoration: none;
     padding: 20px;
@@ -55,18 +63,25 @@ li a {
 
 .container {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 60px;
+    justify-content: space-around;
+
+    padding: 60px;
+    flex: 100%;
 
 }
 
 .mainpart {
-    margin-top: 50px;
+
     display: flex;
-    width: 35%;
+    margin-left: 50px;
+    margin-top: 50px;
     background-color: white;
 }
 
+.main15 {
+    flex: 60%;
+
+}
 
 h2 {
     font-size: 30px;
@@ -74,53 +89,59 @@ h2 {
     color: lightseagreen;
     margin-top: 20px;
     margin-left: 20px;
-    width: 95%;
+    width: 90%;
     height: 50px;
     border-bottom: 2px solid rgb(204, 201, 201);
 }
 
 .part2 {
     display: flex;
+
     justify-content: center;
     align-items: center;
 }
 
 img {
-    width: 50%;
-    height: 50%;
-    margin-bottom: 30px;
+    width: 300px;
+    height: 300px;
+    margin-bottom: 20px;
 
 }
 
 .part3 {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-right: 10px;
-    line-height: 30px;
-    width: 50%;
-    height: 50%;
-    font-size: 20px;
+    line-height: 35px;
+    width: 250px;
+    height: 350px;
+    font-size: 25px;
     color: rgb(156, 156, 156);
 
 }
 
 .part4 {
+    width: 550px;
+    height: 200px;
     margin-left: 10px;
-    line-height: 30px;
+    line-height: 35px;
     color: rgb(156, 156, 156);
-    font-size: 20px;
+    font-size: 25px;
 
 
 }
 
 
 .part {
+
+
     margin-top: 50px;
-    display: flex;
-    width: 25%;
     height: 300px;
     background-color: white;
 }
 
+.main16 {
+    flex: 40%;
+}
 
 h3 {
     font-size: 30px;
@@ -128,7 +149,7 @@ h3 {
     color: lightseagreen;
     margin-top: 20px;
     margin-left: 30px;
-    width: 95%;
+    width: 90%;
     height: 50px;
     border-bottom: 2px solid rgb(204, 201, 201);
 }
@@ -136,13 +157,15 @@ h3 {
 .part6 {
     display: flex;
     justify-content: space-between;
+    padding: 10px;
 }
 
 a img {
     margin-top: 20px;
-    margin-left: 30px;
-    width: 70px;
-    height: 70px;
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 90px;
+    height: 90px;
 
 }
 
@@ -153,7 +176,7 @@ footer {
     height: 100px;
     font-size: 20px;
     clear: both;
-    margin-top: 50px;
+
     background-color: rgb(100, 110, 121);
     border-top: 5px solid rgb(13, 134, 114);
 }
