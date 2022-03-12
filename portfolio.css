@@ -45,7 +45,8 @@ li {
     border-left: 1px solid rgb(204, 201, 201);
     list-style: none;
 }
-li:first-child{
+
+li:first-child {
     border-left: none;
 }
 
@@ -59,23 +60,24 @@ li a {
 }
 
 
-    .container {
-        display: flex;
-        justify-content: space-around;
-       
-        padding: 60px;
-        flex: 100%;
-    
-    
+.container {
+    display: flex;
+    justify-content: space-around;
+
+    padding: 60px;
+    flex: 100%;
+
+
 
 }
 
 .mainpart {
     display: flex;
     margin-left: 50px;
-    margin-top: 70px;
+    margin-top: 50px;
     background-color: white;
 }
+
 .main15 {
     flex: 60%;
 
@@ -97,13 +99,14 @@ h2 {
 
 
 
-.part2{
+.part2 {
 
 
     display: flex;
- 
+
 }
-.part5{
+
+.part5 {
     display: flex;
 }
 
@@ -119,24 +122,26 @@ h2 {
 
 .part3 img {
 
-  width: 200px;
- height: 110px ;
+    width: 200px;
+    height: 110px;
 
 
 }
-.part8{
+
+.part8 {
     position: relative;
     line-height: 35px;
     color: rgb(156, 156, 156);
 
     padding: 10px;
 }
+
 .part8 img {
     width: 200px;
     height: 110px;
 }
 
-h4{
+h4 {
     position: absolute;
     bottom: 30px;
     width: 200px;
@@ -151,7 +156,7 @@ h4{
 .part {
 
 
-    margin-top: 70px;
+    margin-top: 50px;
     height: 300px;
     background-color: white;
 }
@@ -160,7 +165,7 @@ h4{
     flex: 40%;
 }
 
-h5{
+h5 {
     font-size: 30px;
     font-weight: bold;
     color: lightseagreen;
@@ -171,7 +176,7 @@ h5{
     border-bottom: 2px solid rgb(204, 201, 201);
 }
 
-.part6{
+.part6 {
     display: flex;
     justify-content: space-between;
     padding: 10px;
